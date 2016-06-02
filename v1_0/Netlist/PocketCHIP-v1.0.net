@@ -1,0 +1,585 @@
+Netlist
+
+Exported from PocketCHIP-v1.0.sch at 6/1/2016 3:01 PM
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Net         Part     Pad      Pin        Sheet
+
+1WIRE       J1       58       LCD-D2     1
+            R12      1        1          1
+            U3       2        IO         1
+
+3V3_SAFE    JP1      2        2          1
+            Q3       2        S          1
+
+5V_SAFE     JP1      3        3          1
+            Q4       2        S          1
+
+ADC         ESD16    C        P$2        1
+            J1       12       VCC3V3     1
+            JP1      5        5          1
+
+COL-0       1        SW@1     SW         2
+            1        SW@2     SW         2
+            A        SW@1     SW         2
+            A        SW@2     SW         2
+            CTRL     SW@1     SW         2
+            CTRL     SW@2     SW         2
+            ESC      SW@1     SW         2
+            ESC      SW@2     SW         2
+            Q        SW@1     SW         2
+            Q        SW@2     SW         2
+            SHIFT    SW@1     SW         2
+            SHIFT    SW@2     SW         2
+            U2       9        COL0       2
+
+COL-1       -        SW@1     SW         2
+            -        SW@2     SW         2
+            2        SW@1     SW         2
+            2        SW@2     SW         2
+            FN       SW       SW         2
+            FN       SW1      SW         2
+            S        SW       SW         2
+            S        SW1      SW         2
+            U2       10       COL1       2
+            W        SW       SW         2
+            W        SW1      SW         2
+            Z        SW       SW         2
+            Z        SW1      SW         2
+
+COL-2       +        SW@1     SW         2
+            +        SW@2     SW         2
+            3        SW@1     SW         2
+            3        SW@2     SW         2
+            ALT      SW       SW         2
+            ALT      SW1      SW         2
+            D        SW       SW         2
+            D        SW1      SW         2
+            E        SW       SW         2
+            E        SW1      SW         2
+            U2       11       COL2       2
+            X        SW       SW         2
+            X        SW1      SW         2
+
+COL-3       4        SW@1     SW         2
+            4        SW@2     SW         2
+            BKSPC    SW       SW         2
+            BKSPC    SW1      SW         2
+            C        SW       SW         2
+            C        SW1      SW         2
+            F        SW       SW         2
+            F        SW1      SW         2
+            R        SW       SW         2
+            R        SW1      SW         2
+            SPACEL   SW       SW         2
+            SPACEL   SW1      SW         2
+            SPACER   SW       SW         2
+            SPACER   SW1      SW         2
+            U2       12       COL3       2
+
+COL-4       '        SW@1     SW         2
+            '        SW@2     SW         2
+            5        SW@1     SW         2
+            5        SW@2     SW         2
+            G        SW       SW         2
+            G        SW1      SW         2
+            T        SW       SW         2
+            T        SW1      SW         2
+            TAB      SW       SW         2
+            TAB      SW1      SW         2
+            U2       13       COL4       2
+            V        SW       SW         2
+            V        SW1      SW         2
+
+COL-5       6        SW@1     SW         2
+            6        SW@2     SW         2
+            ?/       SW       SW         2
+            ?/       SW1      SW         2
+            B        SW       SW         2
+            B        SW1      SW         2
+            H        SW       SW         2
+            H        SW1      SW         2
+            U2       14       COL5       2
+            Y        SW       SW         2
+            Y        SW1      SW         2
+
+COL-6       7        SW@1     SW         2
+            7        SW@2     SW         2
+            J        SW       SW         2
+            J        SW1      SW         2
+            N        SW       SW         2
+            N        SW1      SW         2
+            SHFT     SW@1     SW         2
+            SHFT     SW@2     SW         2
+            U        SW       SW         2
+            U        SW1      SW         2
+            U2       15       COL6       2
+
+COL-7       8        SW@1     SW         2
+            8        SW@2     SW         2
+            I        SW       SW         2
+            I        SW1      SW         2
+            K        SW       SW         2
+            K        SW1      SW         2
+            M        SW@1     SW         2
+            M        SW@2     SW         2
+            U2       16       COL7       2
+
+COL-8       9        SW@1     SW         2
+            9        SW@2     SW         2
+            L        SW       SW         2
+            L        SW1      SW         2
+            LEFT     SW       SW         2
+            LEFT     SW1      SW         2
+            O        SW       SW         2
+            O        SW1      SW         2
+            U2       17       COL8       2
+            UP       SW       SW         2
+            UP       SW1      SW         2
+
+COL-9       0        SW@1     SW         2
+            0        SW@2     SW         2
+            DWN      SW       SW         2
+            DWN      SW1      SW         2
+            ENTER    SW       SW         2
+            ENTER    SW1      SW         2
+            P        SW@1     SW         2
+            P        SW@2     SW         2
+            RIGHT    SW       SW         2
+            RIGHT    SW1      SW         2
+            U2       18       COL9       2
+
+DCLK        J1       76       LCD-CLK    1
+            X1       30       1          1
+
+EN          J1       70       LCD-D18    1
+            R1       1        1          1
+            U1       4        EN         1
+            X1       31       1          1
+
+FB          C1       2        2          1
+            R2       2        2          1
+            R3       1        1          1
+            U1       3        FB         1
+
+FEL         ESD1     C        P$2        1
+            J1       8        UBOOT      1
+            JP1      21       21         1
+
+GND         C10      2        2          1
+            C11      1        1          1
+            C12      1        1          1
+            C17      2        2          1
+            C18      2        2          1
+            C19      2        2          1
+            C2       2        2          1
+            C3       2        2          1
+            C4       2        2          1
+            C5       2        2          1
+            C6       2        2          2
+            C7       2        2          1
+            C8       2        2          1
+            C9       2        2          1
+            ESD1     A        P$1        1
+            ESD10    A        P$1        1
+            ESD11    A        P$1        1
+            ESD12    A        P$1        1
+            ESD13    A        P$1        1
+            ESD14    A        P$1        1
+            ESD15    A        P$1        1
+            ESD16    A        P$1        1
+            ESD17    C        P$2        1
+            ESD2     A        P$1        1
+            ESD3     A        P$1        1
+            ESD4     A        P$1        1
+            ESD5     A        P$1        1
+            ESD6     A        P$1        1
+            ESD7     A        P$1        1
+            ESD8     A        P$1        1
+            ESD9     A        P$1        1
+            J1       2        _GND       1
+            J1       21       _GND       1
+            J1       22       _GND       1
+            J1       39       _GND       1
+            J1       40       _GND       1
+            J1       42       _GND       1
+            J1       43       _GND       1
+            J1       51       _GND       1
+            J1       80       _GND       1
+            J3       2        2          1
+            JP1      20       20         1
+            JP1      23       23         1
+            JP1      24       24         1
+            JP1      25       25         1
+            PWR      GND      GND        2
+            Q3       1        G          1
+            Q4       1        G          1
+            R1       2        2          1
+            R13      1        1          1
+            R3       2        2          1
+            R8       1        1          1
+            U1       2        GND        1
+            U2       19       GND        2
+            U2       25       PAD        2
+            U2       H1       PAD        2
+            U2       H2       PAD        2
+            U2       H3       PAD        2
+            U2       H4       PAD        2
+            U3       1        GND        1
+            U4       10       GND        1
+            U4       12       GND        1
+            U4       5        GND        1
+            U5       2        GND        1
+            U5       6        GND        1
+            X1       1        1          1
+            X1       13       1          1
+            X1       14       1          1
+            X1       21       1          1
+            X1       22       1          1
+            X1       29       1          1
+            X1       3        1          1
+            X1       36       1          1
+            X1       5        1          1
+            X1       6        1          1
+
+GP1         ESD15    C        P$2        1
+            J1       16       XIO-P2     1
+            JP1      6        6          1
+
+GP2         ESD14    C        P$2        1
+            J1       15       XIO-P3     1
+            JP1      7        7          1
+
+GP3         ESD13    C        P$2        1
+            J1       18       XIO-P4     1
+            JP1      8        8          1
+
+GP4         ESD12    C        P$2        1
+            J1       17       XIO-P5     1
+            JP1      9        9          1
+
+GP5         ESD11    C        P$2        1
+            J1       20       XIO-P6     1
+            JP1      10       10         1
+
+GP6         ESD10    C        P$2        1
+            J1       19       XIO-P7     1
+            JP1      11       11         1
+
+HSYNC       J1       77       LCDHSYNC   1
+            X1       32       1          1
+
+I2C-SCL     ESD4     C        P$2        1
+            J1       25       TWI2-SCK   1
+            JP1      17       17         1
+            R16      1        1          1
+            U4       4        SCL        1
+
+I2C-SDA     ESD5     C        P$2        1
+            J1       26       TWI2-SDA   1
+            JP1      16       16         1
+            R17      1        1          1
+            U4       6        SDA        1
+
+KPD_I2C_SCL J1       52       TWI1-SCK   1
+            R4       1        1          2
+            U2       23       SCL        2
+            U5       11       SCL        1
+
+KPD_I2C_SDA J1       50       TWI1-SDA   1
+            R5       1        1          2
+            U2       22       SDA        2
+            U5       9        SDA        1
+
+KPD_INT     J1       24       AP-EINT1   1
+            R10      2        2          2
+            TP3      1        1          1
+            U2       24       INT        2
+
+KPD_RST     R6       1        1          2
+            TP4      1        1          1
+            U2       20       RESET      2
+
+LCD_D3      J1       59       LCD-D3     1
+            X1       24       1          1
+
+LCD_D4      J1       60       LCD-D4     1
+            X1       25       1          1
+
+LCD_D5      J1       61       LCD-D5     1
+            X1       26       1          1
+
+LCD_D6      J1       62       LCD-D6     1
+            X1       27       1          1
+
+LCD_D7      J1       63       LCD-D7     1
+            X1       28       1          1
+
+LCD_D10     J1       64       LCD-D10    1
+            X1       15       1          1
+
+LCD_D11     J1       65       LCD-D11    1
+            X1       16       1          1
+
+LCD_D12     J1       66       LCD-D12    1
+            X1       17       1          1
+
+LCD_D13     J1       67       LCD-D13    1
+            X1       18       1          1
+
+LCD_D14     J1       68       LCD-D14    1
+            X1       19       1          1
+
+LCD_D15     J1       69       LCD-D15    1
+            X1       20       1          1
+
+LCD_D19     J1       71       LCD-D19    1
+            X1       8        1          1
+
+LCD_D20     J1       72       LCD-D20    1
+            X1       9        1          1
+
+LCD_D21     J1       73       LCD-D21    1
+            X1       10       1          1
+
+LCD_D22     J1       74       LCD-D22    1
+            X1       11       1          1
+
+LCD_D23     J1       75       LCD-D23    1
+            X1       12       1          1
+
+LCD_DE      J1       79       LCD-DE     1
+            X1       34       1          1
+
+LCD_XL      J1       54       X1         1
+            X1       39       1          1
+
+LCD_XR      J1       53       X2         1
+            X1       37       1          1
+
+LCD_YD      J1       55       Y2         1
+            X1       38       1          1
+
+LCD_YU      J1       56       Y1         1
+            X1       40       1          1
+
+N$48        C17      1        1          1
+            U4       2        BYP        1
+
+N$50        LED1     GREEN    GREEN      1
+            U5       4        LED2       1
+
+N$51        LED1     RED      RED        1
+            U5       5        LED1       1
+
+N$53        R8       2        2          1
+            U5       10       IREF       1
+
+N$61        Q2       3        OUT        1
+            X1       2        1          1
+
+N$63        Q1       3        OUT        1
+            Q2       1        IN         1
+
+N$555       LED1     BLUE     BLUE       1
+            U5       3        LED3       1
+
+PWM         J1       57       PWM0       1
+            Q1       2        GND        1
+            R13      2        2          1
+
+PWR_LGT     C1       1        1          1
+            C3       1        1          1
+            C5       1        1          1
+            D1       C        C          1
+            Q2       2        GND        1
+            R2       1        1          1
+            TP2      1        1          1
+
+PWR_ON      J1       49       PWRON      1
+            PWR      SW       SW         2
+            PWR      SW1      SW         2
+            R9       1        1          2
+
+ROW-0       0        GND      GND        2
+            1        GND      GND        2
+            2        GND      GND        2
+            3        GND      GND        2
+            4        GND      GND        2
+            5        GND      GND        2
+            6        GND      GND        2
+            7        GND      GND        2
+            8        GND      GND        2
+            9        GND      GND        2
+            U2       8        ROW0       2
+
+ROW-1       E        GND      GND        2
+            E        GND@1    GND        2
+            I        GND      GND        2
+            I        GND@1    GND        2
+            O        GND      GND        2
+            O        GND@1    GND        2
+            P        GND      GND        2
+            Q        GND      GND        2
+            R        GND      GND        2
+            R        GND@1    GND        2
+            T        GND      GND        2
+            T        GND@1    GND        2
+            U        GND      GND        2
+            U        GND@1    GND        2
+            U2       7        ROW1       2
+            W        GND      GND        2
+            W        GND@1    GND        2
+            Y        GND      GND        2
+            Y        GND@1    GND        2
+
+ROW-2       A        GND      GND        2
+            D        GND      GND        2
+            D        GND@1    GND        2
+            ENTER    GND      GND        2
+            F        GND      GND        2
+            F        GND@1    GND        2
+            G        GND      GND        2
+            G        GND@1    GND        2
+            H        GND      GND        2
+            H        GND@1    GND        2
+            J        GND      GND        2
+            J        GND@1    GND        2
+            K        GND      GND        2
+            K        GND@1    GND        2
+            L        GND      GND        2
+            L        GND@1    GND        2
+            S        GND      GND        2
+            S        GND@1    GND        2
+            U2       6        ROW2       2
+
+ROW-3       B        GND      GND        2
+            B        GND@1    GND        2
+            C        GND      GND        2
+            C        GND@1    GND        2
+            DWN      GND      GND        2
+            M        GND      GND        2
+            N        GND      GND        2
+            N        GND@1    GND        2
+            SHIFT    GND      GND        2
+            U2       5        ROW3       2
+            UP       GND      GND        2
+            V        GND      GND        2
+            V        GND@1    GND        2
+            X        GND      GND        2
+            X        GND@1    GND        2
+            Z        GND      GND        2
+            Z        GND@1    GND        2
+
+ROW-4       ?/       GND      GND        2
+            ?/       GND@1    GND        2
+            ALT      GND      GND        2
+            ALT      GND@1    GND        2
+            ESC      GND      GND        2
+            FN       GND      GND        2
+            FN       GND@1    GND        2
+            LEFT     GND      GND        2
+            RIGHT    GND      GND        2
+            SHFT     GND      GND        2
+            SPACEL   GND      GND        2
+            SPACEL   GND@1    GND        2
+            SPACER   GND      GND        2
+            SPACER   GND@1    GND        2
+            TAB      GND      GND        2
+            TAB      GND@1    GND        2
+            U2       4        ROW4       2
+
+ROW-5       '        GND      GND        2
+            +        GND      GND        2
+            -        GND      GND        2
+            BKSPC    GND      GND        2
+            CTRL     GND      GND        2
+            U2       3        ROW5       2
+
+ROW-6       R11      1        1          2
+            U2       2        ROW6       2
+
+ROW-7       R7       1        1          2
+            U2       1        ROW7       2
+
+SA0         R18      1        1          1
+            U4       7        SA0        1
+
+SPI-CLK     ESD9     C        P$2        1
+            J1       27       CSICK      1
+            JP1      12       12         1
+
+SPI-MISO    ESD7     C        P$2        1
+            J1       29       CSIVSYNC   1
+            JP1      14       14         1
+
+SPI-MOSI    ESD8     C        P$2        1
+            J1       30       CSIHSYNC   1
+            JP1      13       13         1
+
+SPI-SEL     ESD6     C        P$2        1
+            J1       28       CSIPCK     1
+            JP1      15       15         1
+
+UART_RX     ESD3     C        P$2        1
+            J1       6        UART1-RX   1
+            JP1      18       18         1
+
+UART_TX     ESD2     C        P$2        1
+            J1       4        UART1-TX   1
+            JP1      19       19         1
+
+VBAT_EXT    C2       1        1          1
+            C4       1        1          1
+            ESD17    A        P$1        1
+            J1       47       VBAT-EXT   1
+            J3       1        1          1
+            JP1      4        4          1
+            L1       P$2      2          1
+            TP1      1        1          1
+            U1       5        VIN        1
+
+VCC3V3      C11      2        2          1
+            C12      2        2          1
+            C18      1        1          1
+            C19      1        1          1
+            C6       1        1          2
+            C9       1        1          1
+            J1       10       LRADC      1
+            J1       46       VCC3V3     1
+            LED1     VIN      VIN        1
+            Q1       1        IN         1
+            Q3       3        D          1
+            R10      1        1          2
+            R11      2        2          2
+            R12      2        2          1
+            R16      2        2          1
+            R17      2        2          1
+            R18      2        2          1
+            R4       2        2          2
+            R5       2        2          2
+            R6       2        2          2
+            R7       2        2          2
+            R9       2        2          2
+            U2       21       VCC        2
+            U4       1        VDDIO      1
+            U4       14       VDD        1
+            U5       12       VDET       1
+            U5       13       VBAT       1
+            X1       4        1          1
+
+VCC5V       C10      1        1          1
+            C7       1        1          1
+            C8       1        1          1
+            J1       1        VCC-5V     1
+            J1       44       VCC-5V     1
+            Q4       3        D          1
+
+VREG_OUTPUT D1       A        A          1
+            L1       P$1      1          1
+            U1       1        SW         1
+
+VSYNC       J1       78       LCDVSYNC   1
+            X1       33       1          1
+
